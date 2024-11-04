@@ -1,0 +1,442 @@
+/* fonts classes start */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* font classes end */
+
+
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============ home start =========== */
+#home {
+  position: relative;
+  height: 100vh;
+}
+
+
+.home-container-fluid {
+  position: relative;
+  z-index: 99;
+}
+.home-bg-img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/bg.jpg);
+  filter: brightness(45%);
+}
+
+
+
+.home-title h1 {
+  font-size: 72px;
+}
+
+#element {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.soc-ic{
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+
+
+/* ============ home end =========== */
+/* ============ about start =========== */
+
+
+
+.container-about{
+  padding-inline: 25%;
+}
+
+
+
+.about-title{
+  font-family: "montserrat" sans-serif;
+    font-size: 2rem;
+}
+
+.right-pan div{
+    position: relative;
+}
+
+.about-descr{
+  font-family: "poppins" sans-serif;
+
+}
+
+.progress{
+  height: 1.5rem;
+  
+}
+
+.pro-1-a{
+  left: 1rem;
+  align-self: self-start;
+}
+
+.pro-1-b{
+  right: 1rem;
+  align-self: self-end;
+}
+
+.about-img{
+ width: 25rem;
+}
+/* ============ about end =========== */
+
+/* ============ services start =========== */
+.mainHead h2{
+  font-size: 40px;
+}
+
+.sCard{
+  height: 4rem;
+  width: 4rem;
+}
+/* ============ services end =========== */
+
+/* ============ portfolio start =========== */
+
+/* Tabs*/
+
+.card {
+  /* max-width: 25rem; */
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+a.active {
+  border-bottom: 2px solid #55c57a;
+}
+
+.nav-link {
+  color: rgb(110, 110, 110);
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #55c57a;
+}
+
+.nav-pills .nav-link.active {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 600;
+}
+
+.tab-content {
+  padding-bottom: 1.3rem;
+}
+
+.form-control {
+  background-color: rgb(241, 243, 247);
+  border: none;
+}
+
+/* 3nd card */
+span {
+  margin-left: 0.5rem;
+  padding: 1px 10px;
+  color: white;
+  background-color: rgb(143, 143, 143);
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.third {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+label {
+  font-weight: 500;
+  color: rgb(104, 104, 104);
+}
+
+.btn-success {
+  float: right;
+}
+
+.form-control:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+/* 1st card */
+
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding-inline-start: 0;
+}
+
+.search {
+  padding: 0 1rem 0 1rem;
+}
+
+.ccontent li .wrapp {
+  padding: 0.3rem 1rem 0.001rem 1rem;
+}
+
+.ccontent li .wrapp div {
+  font-weight: 600;
+}
+
+.ccontent li .wrapp p {
+  font-weight: 360;
+} 
+
+.ccontent li:hover {
+  background-color: rgb(117, 93, 255);
+  color: white;
+}
+
+/* 2nd card */
+
+.addinfo {
+  padding: 0 1rem;
+}
+
+/* ============ portfolio end =========== */
+
+/* ============ Testimonials start =========== */
+
+.car-img{
+  width: 8rem;
+  height: 8rem;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.car-p{
+  max-width: 50rem;
+}
+
+/* ============ Testimonials end =========== */
+
+/* ============ rand-numbers start =========== */
+
+.container-num{
+  padding-inline: 25%;
+}
+
+/* ============ rand-numbers end =========== */
+
+/* ============ our team start =========== */
+
+.container-our-team{
+  padding-inline: 20%;
+}
+
+/* ============ our team end =========== */
+
+/* ============ Contact Us start =========== */
+
+.container-contact-us{
+  padding-inline: 20%;
+}
+
+.con-card{
+  height: 4rem;
+  width: 4rem;
+}
+
+.con-item{
+  width: 33%;
+}
+
+.form-floating{
+  
+}
+
+/* ============ Contact Us end =========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
